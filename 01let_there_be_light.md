@@ -67,6 +67,8 @@ Voltage and current from an Arduino pin
 
 ### Traffic Lights
 
+<object data="img/trafficLights_plus.svg" type="image/svg+xml"></object>
+
 ### Where to?
 
 <a href="https://domhnallohanlon.github.io" class="btn btn-lg btn-primary"> Domhnall's Projects</a>
