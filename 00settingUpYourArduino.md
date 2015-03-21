@@ -58,15 +58,16 @@
 <xmp theme="superhero" style="display:none;" toc-top-link>
 
 
-### Lecture 0: Setting up your Arduino
+# Lecture 0: Setting up your Arduino
 
 ![Arduino Uno](img/uno.svg "Arduino Uno")
 
 ### Download the IDE
-
-<a href="https://arduino.cc" target="_blank">Arduino Website</a>
+In order to program your board you'll need to get some software that allows you to upload, or flash, code to the Arduino. There are a number of different options available - some of which will be discussed later on - but for the moment let's get started using the official IDE (Integrated Development Environment) from the <a href="https://arduino.cc/download" target="_blank">Arduino Website</a>
 
 ### Blink
+
+Since time immemorial (well...[(1974](http://en.wikipedia.org/wiki/%22Hello,_World!%22_program#History)) people have written a very simple "Hello World" program as their first foray into a new language. Since an Arduino doesn't have the means to display typed characters we'll have to make do with turning the an LED on and off. The _blink_ sketch is outlined below.
 
 <code data-gist-id="733c75eac70f8a806015"></code>
 
