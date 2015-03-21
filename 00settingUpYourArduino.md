@@ -68,18 +68,8 @@
 
 ### Blink
 
-```arduino
+<code data-gist-id="733c75eac70f8a806015"></code>
 
-void setup(){
-
-
-}
-
-void loop(){
-
-}
-
-```
 
 ### View Slides
 
