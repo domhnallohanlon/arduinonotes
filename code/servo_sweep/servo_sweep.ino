@@ -1,13 +1,11 @@
 #include <Servo.h>
 
-
-
-//pins
+//create a servo and give it a name
 Servo hitec;
 
 //program variables
 int theta = 90; 	       //global var to store servo angle
-int delta = 2; 	               // global var to store angular displacement
+int delta = 2; 	         // global var to store angular displacement
 
 //waits
 int whoa = 200;                // parameterising delay in ms
@@ -16,7 +14,7 @@ int whoa = 200;                // parameterising delay in ms
 void setup (){
   Serial.begin(9600);
 /********************************************
-*   	      Syntax:		            *
+*              Syntax:                      *
 *                                           *
 *  attach(pin, min, max) ;                  *
 *  pin the data connection for the Servo    *
@@ -30,7 +28,7 @@ void setup (){
 
 void loop () {
 
-//syntax from fade
+//change sign at either end
 if (theta >=180 || theta <=0){
   delta = -delta;
 }

@@ -19,5 +19,6 @@ A servo motor adds a small gearbox to the motor which allows for finer control o
 The code above calls for the servo to be attached to pin 9. A schematic of the circuit is included below [click to view larger image]
 
 ![Connecting a servo to the Arduino](img/servoCircuit.png "Connecting a servo to the Arduino")
+![Schematic](img/servoSchematic.png "Circuit Schematic")
 
 ## Steppers
