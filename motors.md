@@ -10,7 +10,7 @@ Adding a motor to a circuit is, from a design perspective, similar adding an ind
 
 ##Servo Library
 
-A servo motor adds a small gearbox to the motor which allows for finer control over its rotational position. In many servos, especially those aimed at hobbyists, the servo is limited to less then 360 degrees of rotation. It is possible, however, to purchase continuous rotation servos. Like a basic DC motor as servo has inputs, generally red and black,  for Voltage and Ground but it also has a data input, typically yellow or orange, which allows the user to control its angular position. 
+A servo motor adds a small gearbox and a [potentiometer](#!parts.md#Potentiometer) to the motor which allows for finer control over its rotational position. In many servos, especially those aimed at hobbyists, the servo is limited to less then 360 degrees of rotation. It is possible, however, to purchase continuous rotation servos. Like a basic DC motor as servo has inputs, generally red and black,  for Voltage and Ground but it also has a data input, typically yellow or orange, which allows the user to control its angular position. 
 
 <code data-gist-id="e9585bba4648dd463677"></code>
 
