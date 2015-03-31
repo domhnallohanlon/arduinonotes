@@ -27,13 +27,13 @@ An IDE, or __i__ntegrated __d__evelopment __e__nvironment, is used to write huma
 The icons on the top of the editor perform the following functions:
 
 <img src="img/tb1.png" class="img-responsive" alt="Toolbar">
-__Verify__ and __Upload__: Verify simply checks that the code is syntactically correct and suitable for uploading. The upload button verifies the code and then uploads it to the connected board.
+**Verify** and **Upload**: Verify simply checks that the code is syntactically correct and suitable for uploading. The upload button verifies the code and then uploads it to the connected board.
 
 <img src="img/tb2.png" class="img-responsive" alt="Toolbar">
-__New, Open__ and __Save__ as the the names imply are for creating new sketches, opening existing sketches and saving the current sketch. 
+**New, Open** and **Save** as the the names imply are for creating new sketches, opening existing sketches and saving the current sketch. 
 
 <img src="img/tb3.png" class="img-responsive" alt="Toolbar">
-On the top right of the editor is the __Open Serial Monitor__ button. It allows you to send and recieve serial data between your computer and the Arduino.
+On the top right of the editor is the **Open Serial Monitor** button. It allows you to send and recieve serial data between your computer and the Arduino.
 
 ## Anatomy of a Sketch
 

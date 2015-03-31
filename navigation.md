@@ -19,6 +19,7 @@
 
   * [Serial Monitor](serial.md)
   * [Read & Write](readwrite.md)
+  * [Make Some Noise!](sounds.md)
 
 
 [Week 3]()
