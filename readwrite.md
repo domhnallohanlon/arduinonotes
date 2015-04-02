@@ -8,6 +8,8 @@ These functions are use to get information from, and send information to, the di
 digitalRead();
 digitalWrite();
 ```
+
+These functions are specific to the Arduino language, since they communicate directly with the hardware pins. Being digital, the expected responses are either 1 or 0 - in other words the pin can only be either on or off. It is, however, possible to alter the speed, or frequency, that the pins turn on and off at using a technique known as **P**ulse **W**idth **M**odulation. In the Arduino world, not all pins are created equal, as only the digital pins specifically labelled with *PWM* are capable of this. PWM pins may also be identified by the tilde character, <kbd>~</kbd>, beside the pin number.
 ## Analog
 
 ```
@@ -58,3 +60,23 @@ In this example, the Arduino accepts values through the serial monitor and chang
 
 <code data-gist-id="99d31aa3d1b0ac8d85b0"></code>
 <a href="https://gist.github.com/domhnallohanlon/99d31aa3d1b0ac8d85b0/download" class="text-success pull-right">Download Code</a><br>
+
+## Stream
+
+For the sake of completeness, it is worth mentioning the functions of the `Stream` library. 
+
+```
+available()
+read()
+flush()
+find()
+findUntil()
+peek()
+readBytes()
+readBytesUntil()
+readString()
+readStringUntil()
+parseInt()
+parsefloat()
+setTimeout()
+```
