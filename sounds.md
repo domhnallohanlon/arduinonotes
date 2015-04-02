@@ -18,6 +18,12 @@
 
 using the `tone` function.
 
+## Theremin
+
+Use an LDR to modulate a tune
+
+![LR](img/ldr.png "LDR")
+
 ## Where to?
 
 <a href="https://domhnallohanlon.github.io" class="btn btn-lg btn-primary"> Domhnall's Projects</a>
