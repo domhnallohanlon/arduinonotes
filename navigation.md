@@ -30,7 +30,8 @@
 
 [Quick Start Guides]()
 
- * [Sublime Text](sublime.md)
+ * [Sublime Text](stino.md)
+ * [Codebender](codebender.md)
  * [Parts Guide](parts.md)
 
 [gimmick:theme (inverse:false)](flatly)
