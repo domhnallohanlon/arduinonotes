@@ -16,10 +16,10 @@
 
 ### Development of the Arduino
 
-Born in an Italian design school, the Arduino was always going to be beatuiful. The distinctive microcontroller has won admirers all over the world particularly for its ease of programming. Since 2009? the Uno and a wide variety clones/
+Born in an Italian design school, the Arduino was always going to be beatuiful. The distinctive microcontroller has won admirers all over the world, not just for its good looks but in particular for its ease of programming. While the company name and brand are protected copyrights the hardware design and programming software are all open source, meaning that anyone with sufficient knowledge can adapt and modify either of these to their hearts content. Since 2009? the Uno and a wide variety clones/copycats/officailly supported derivatives have found their way into the hands of engineers and hobbyists alike, which has contributed to the recent explosion in the maker movement and internet-of-things devices.
 
 ### Arduino Philosophy
-Much of the Arduino's success is attributable to the open source nature of the project. It is possible to modify both the source code of the Arduino software as well as build your own Arduino in fact it's technically possible to build an imitation Arduino for under €5 in parts. This open philosophy has led to a huge community of users, hackers and makers springing up and supporting the platform.
+Much of the Arduino's success is attributable to the open source nature of the project. It is possible to modify both the source code of the Arduino software as well as build your own Arduino in fact it's technically possible to build an imitation Arduino for under €5 worth of parts. This open philosophy has led to a huge community of users, hackers and makers springing up and supporting the platform, and it is arguably this community that is that Arduino's greatest asset.
 
 ### The Arduino IDE
 
@@ -33,13 +33,24 @@ On the top right of the editor is the __Open Serial Monitor__ button. It allows 
 
 ### Anatomy of a Sketch
 
-```C
-void setup(){
-    
-}
-```
+A program in Arduino is referred to as a __sketch__, which is a nod to its design origins. Sketches have the filetype `.ino`, as in ardu__ino__.  
 
-```C
+As we progress we'll develop more and more sophisticated programs, but let's start with the most basic "Hello World" sketch, _blink_, which simply turns on and off the on-baord LED.
+
+There are two sections, or blocks, of code that every sketch has to have, the `setup()` and the `loop()`
+
+<code data-gist-id="2586d6da5e223bfbec40" data-gist-file="blink.ino" data-gist-line="3-8" data-gist-hide-footer="true"></code>
+
+
+The loop function will just execute over and over again. In our example we are two different messages, or signals, to our LED. First we set it to be on (HIGH) and then off (LOW).
+
+<code data-gist-id="2586d6da5e223bfbec40" data-gist-file="blink.ino" data-gist-line="12-18" data-gist-hide-footer="true"></code>
+
+
+
+
+
+```
 void loop(){
     
 }
