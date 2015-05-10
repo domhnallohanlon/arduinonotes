@@ -2,10 +2,7 @@
 <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 
-
 # Lecture 1: Let There Be Lights
-
-![Arduino Uno](img/uno.svg "Arduino Uno")
 
 ## Plan of Action
 
@@ -13,6 +10,10 @@
  - Getting Acquainted with the IDE
  - "Hello World" sketch
  - Traffic Lights
+
+
+<img src="img/uno_sm.png" alt="Arduino Uno" class="img-resonsive cb" style="display:block; margin:auto">
+
 
 ## Development of the Arduino
 
@@ -53,13 +54,29 @@ The loop function will just execute over and over again. In our example we are t
 
 ## Hello Ardunio World
 
-blinking
+This very basic bit of code gives us a good idea of how to structure an Arduino sketch, however, even this basic code has it's limitations. 
 
-## Semapore
+Let's say that we now want to move our LED from pin 13 to pin 12 - how many changes will this require in our code? We have to change the `pinMode` function and two `digitalWrite()` functions. I we had hard coded in pin 13 like this hundreds, or even thousands of times, then maintaing our code would quickly become a nightmare. A better approach in situations like this is to use a __variable__. A varaible acts like a placeholder for some type of information. Imagine you have a variable called `bankBalance`, depending on how often you get paid, or what you've bought recently, the __value__ of this variable will change, or vary, hence the name variable. From the perspective of the Arduino, or any computer for that matter, it sees the world only in binary digits, 1s and 0s, which can be used to represent anything the programmer wants. For this reason many programming langagues allow you to tell the computer what  __type__ of data, or varible, you wish to use. We'll cover data types in greater detail but for now all we need to know is that an `int` or integer is capable of storing roughly &plusmn;32,000 whole numbers. Since Arduino pins only go from 0 - 13 this will do fine.
 
-looping
+<code data-gist-id="2586d6da5e223bfbec40" data-gist-file="blink2.ino"  data-gist-hide-footer="true"></code>
+ 
 
-### Parameterising
+
+## Morse Code
+
+As well as sending information digitally, via ones and zeros, it's also possible to send information light or sound. Systems such as Morse code encode information as either long or short pulses. Does this old ring tone sound familiar to you? 
+    
+<img class="img-responsive" src="img/sms.png"></img>
+<audio controls style="display:block; margin:auto">
+  <source src="MorseSMS/sms.mp3" type="audio/mpeg">
+  <source src="MorseSMS/sms.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+
+
+What we'll do now is have our LED recreate this pattern (3 short, pause, 2 long, pause, 3 short, pause) using the functions we've learned so far.
+
+## Creating Functions
 
 int LED = 13;
 
@@ -68,6 +85,9 @@ int LED = 13;
 Voltage and current from an Arduino pin
 
 ## Resistors
+
+<img class="img-responsive" src="img/resistor.png"></img>
+<img class="img-responsive" src="img/resistor_sch.png"></img>
 
 ### Ohm's Law
 
