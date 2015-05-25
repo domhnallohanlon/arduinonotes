@@ -24,8 +24,7 @@ Use an LDR to modulate a tune
 
 ![LR](img/ldr.png "LDR")
 
+
 ## Where to?
 
-<a href="https://domhnallohanlon.github.io" class="btn btn-lg btn-primary"> Domhnall's Projects</a>
-
-<a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-lg btn-primary"> Arduino Resources</a>
+<a href="mdwiki.html#!transistors.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>

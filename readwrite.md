@@ -80,3 +80,11 @@ parseInt()
 parsefloat()
 setTimeout()
 ```
+
+
+### Stretch Goal
+ -  
+
+## Where to?
+
+<a href="mdwiki.html#!sounds.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>

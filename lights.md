@@ -1,15 +1,23 @@
 <!-- Latest compiled and minified CSS & JS -->
 <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-
 # Lecture 1: Let There Be Lights
 
-## Plan of Action
-
+<div class="panel panel-primary">
+      <div class="panel-heading">
+            <h3 class="panel-title">Plan of Action</h3>
+      </div>
+<div class="panel-body">
  - Origin and History of Arduino
  - Getting Acquainted with the IDE
  - "Hello World" sketch
  - Traffic Lights
+      </div>
+</div>
+
+
+
+
 
 
 <img src="img/uno_sm.png" alt="Arduino Uno" class="img-resonsive cb" style="display:block; margin:auto">
@@ -78,23 +86,32 @@ What we'll do now is have our LED recreate this pattern (3 short, pause, 2 long,
 
 ## Creating Functions
 
-int LED = 13;
+A function, or procedure, (the two terms are used interchangably depending on which language you're using) broadly defined is simply a set of instructions that a computer should execute repeatedly, until it reaches a well defined stopping condition. More specifically, in our sketch we would like to have a function to produce any number of short blinks (dots) and any number of long blinks (dashes)
 
-### Pinteresting
 
-Voltage and current from an Arduino pin
 
 ## Resistors
+
+A resistor is a passive electronic device which limits the amount of electric current that can flow through a circuits. The image on the left is of a ceramic-coated carbon filament resistor and the schematic on the right is the circuit symbol for a resistor. An object's resistance is measured in units of Ohms. 
+
 
 <img class="img-responsive" src="img/resistor.png"></img>
 <img class="img-responsive" src="img/resistor_sch.png"></img>
 
 ### Ohm's Law
 
+[gimmick: math]()
+
+You'll probably recall from your science studies that voltage, current and resistance in a circuit are all related. More specifically, voltage (V) is equal to current (I) times resistance (R)
+
+$$ V = I \times R $$
+
 ## Traffic Lights
 
-<object data="img/trafficLights_plus.svg" type="image/svg+xml"></object>
-### Code
+<!-- <object data="img/trafficLights_plus.svg" type="image/svg+xml"></object>
+ -->
+<img src="img/trafficLights.png" alt="traffic lights circuit diagram" class="img-responsive">
+ ### Code
 <code data-gist-id="25f0bfed4db45384c3f6"></code>
 <a href="https://gist.github.com/domhnallohanlon/25f0bfed4db45384c3f6/download" class="text-success pull-right">Download Code</a><br>
 
@@ -111,5 +128,5 @@ Voltage and current from an Arduino pin
 
 ## Where to?
 
-<a href="https://domhnallohanlon.github.io" class="btn btn-primary"> Domhnall's Projects</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>
+<a href="mdwiki.html#!serial.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>
 

@@ -16,3 +16,12 @@ Serial.read();
 Serial.write();
 ```
 
+## Using the Serial Monitor for debugging
+
+## Stretch Goal
+ - Initialise the LEDs using an array
+ - Toggle lights based on keyboard input
+
+## Where to?
+
+<a href="mdwiki.html#!readwrite.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>

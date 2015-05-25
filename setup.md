@@ -21,3 +21,7 @@ To view a slide show of this guide <a href="00set_up_slides.html" target="_blank
 ##Download Notes
 
 To download the printable version of these notes click here
+
+## Where to?
+
+<a href="<mdwiki class="html" id=""></mdwiki>.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>
