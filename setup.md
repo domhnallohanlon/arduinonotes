@@ -24,4 +24,4 @@ To download the printable version of these notes click here
 
 ## Where to?
 
-<a href="<mdwiki class="html" id=""></mdwiki>.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>
+<a href="mdwiki#!lights.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>
