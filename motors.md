@@ -23,4 +23,6 @@ The code above calls for the servo to be attached to pin 9. A schematic of the c
 
 ## Steppers
 
+
+## Where to?
 <a href="mdwiki.html#!hbridge.md" class="btn btn-primary"> Next Section</a>  <a href="https://domhnallohanlon.github.io/arduinonotes" class="btn btn-success"> Arduino Resources</a>
