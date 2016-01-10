@@ -34,7 +34,7 @@ A servo motor adds a small gearbox and a [potentiometer](#!parts.md#Potentiomete
 
 ### Servo Library
 
-Arduino comes with libraries for extending its functionality, and making it easier to connect to a variety of standard components.   
+Arduino comes with libraries for extending its functionality, and making it easier to connect to a variety of standard components.    
 
 
 <code data-gist-id="e9585bba4648dd463677"></code>
