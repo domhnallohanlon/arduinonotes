@@ -11,9 +11,9 @@
          |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5 
          |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4 
          |                             AREF[ ] |
-         |                              GND[ ] |
+         |                              GND[-] |
          | [ ]N/C                    SCK/13[ ] |   B5
-         | [ ]IOREF                 MISO/12[X] |   .
+         | [ ]IOREF                 MISO/12[+] |   .
          | [ ]RST                   MOSI/11[ ]~|   .
          | [ ]3V3    +---+               10[ ]~|   .
          | [ ]5v    -| A |-               9[ ]~|   .
@@ -31,7 +31,8 @@
          |  UNO_R3    GND MOSI 5V  ____________/
           \_______________________/
 		  
-		  http://busyducks.com/ascii-art-arduinos
+	+ Anode (long leg) of LED
+	- Cathode (short leg) of LED
 
 **********************************************/
 
