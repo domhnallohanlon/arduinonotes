@@ -8,15 +8,25 @@ The simplest type of motor you're likely to come across is a DC Motor
 
 <img src="img/dcMotor_pic.jpg" alt="Pic of Motor" class="img-responsive center-block"> 
 
-There are quite a few different parts in even the cheapest motor, but for the sake of simplicity we can consider just the most important parts.
+There are quite a few different parts in even the cheapest motor, but for the sake of simplicity we can consider just the most important parts. A DC motor consists of a permanent magnet, an electromagnet and a housing to constraion them both.
 
 ###Rotor
 
-The "inside bit" that rotates is called the rotor. This tpyically consists of a copper coil that functions as an electo-magnet.
+The "inside bit" that rotates is called the rotor. This tpyically consists of a copper coil that functions as an electo-magnet. DC motors where the outer casing rotates are known as out runner motors and are typically found in very high speed devices such as quadcopters.
 
 ###Stator
 
 Surrounding the rotor is the "outside bit", or that stator, which is a stationary component. This consists of the case of the motor and more magnets, which can be either permanent or electro-magnets. 
+
+
+###H-Bridge
+
+Even the smallest DC motors are capable of consuming quite a bit of current. Since the Arduino is only capable of supplying as mere 20mA of current we are going to need some external circuitry, such as a h-bridge.
+
+<iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://circuits.io/circuits/2467321-lab-3-motor-control-with-h-bridge/embed#breadboard' width='650'></iframe> 
+
+
+
 
 ## Steppers
 
